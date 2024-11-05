@@ -36,11 +36,12 @@ video {
 }
 
 #tituloPitch {
+    margin: 2% 0;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     #tituloPitch {
         margin-top: 15%;
         font-family: 'Poppins', sans-serif;
