@@ -25,18 +25,23 @@ body{
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 8px;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 55%;
+    width: 50%;
+    aspect-ratio: 16 / 9; /* Define a proporção do vídeo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 video {
     width: 100%; 
-    height: auto; 
+    height: 100%; /* Garante que o vídeo preencha o container */
+    object-fit: cover; /* Ajusta o conteúdo para não distorcer */
 }
 
 #tituloPitch {
-    margin: 2% 0;
+    margin: 3% 0;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
@@ -51,15 +56,20 @@ video {
     .video-container {
         background-color: #fff;
         border: 2px solid #ccc;
-        margin-top: 12%;
         border-radius: 8px;
-        overflow: hidden; 
+        overflow: hidden;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        width: 75%;
+        width: 50%;
+        aspect-ratio: 16 / 9; /* Define a proporção do vídeo */
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    
     video {
         width: 100%; 
-        height: auto; 
+        height: 100%; /* Garante que o vídeo preencha o container */
+        object-fit: cover; /* Ajusta o conteúdo para não distorcer */
     }
     
 }
